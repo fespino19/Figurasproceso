@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/button_menu_home" />
+
+    <item
+        android:id="@+id/miListaFragment"
+        android:icon="@drawable/ic_menu_list"
+        android:title="@string/button_menu_milista" />
+
+
+
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_menu_setting"
+        android:title="@string/button_menu_setting" />
+
+    <item
+        android:id="@+id/perfilFragment"
+        android:icon="@drawable/ic_user"
+        android:title="Perfil" />
+
+
+</menu>

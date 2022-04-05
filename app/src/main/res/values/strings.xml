@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FigurasShop</string>
+    <!--Login-->
+    <string name="tittle_login">Login</string>
+    <string name="tittle_email">Email</string>
+    <string name="tittle_pasword">Password</string>
+
+    <!--Register-->
+    <string name="tittle_register">Registro</string>
+    <string name="title_biografia">Biografia</string>
+    <string name="title_nombre">Nombre/Nick</string>
+    <string name="title_pais">Pais</string>
+
+    <!--Crear Receta-->
+    <string name="tittle_Insertar">Anadir figura</string>
+    <string name="tittle_receta">Figura</string>
+    <string name="title_nombre_receta">Nombre de la figura</string>
+
+    <!--SETTINGS-->
+    <string name="title_cuenta">Cuenta</string>
+    <string name="title_recordatorio">Recibir recordatorios</string>
+    <string name="title_temas">Tema oscuro</string>
+    <string name="title_notificaciones">Notificaciones</string>
+    <string name="title_pantalla_sonido">Pantalla y sonido</string>
+    <string name="title_ayuda">Ayuda</string>
+    <string name="title_seguridad">Seguridad</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_search">Buscar figura</string>
+    <string name="title_notifi">Notifications</string>
+    <string name="title_mylist">Mi lista</string>
+
+    <string name="title_tiempo">time</string>
+    <string name="title_descripcion">Informacion de la figura</string>
+    <string name="title_buscar">Buscar materiales</string>
+    <string name="title_preparacion">Describir figura</string>
+
+    <!--MENU-->
+    <string name="button_menu_home">Inicio</string>
+    <string name="button_menu_milista">Mi lista</string>
+    <string name="button_menu_notifi">Notificaiones</string>
+    <string name="button_menu_setting">Ajustes</string>
+
+    <!--Botones-->
+    <string name="button_login">Iniciar</string>
+    <string name="button_register">Registrarse</string>
+    <string name="button_invited">Invitado</string>
+    <string name="button_create">Crear</string>
+</resources>

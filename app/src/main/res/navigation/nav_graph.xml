@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.figuras.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.figuras.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_miListaFragment"
+            app:destination="@id/miListaFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.figuras.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_recetaViewFragment"
+            app:destination="@id/figuraViewFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_filtroFragment"
+            app:destination="@id/filtroFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/insertarFiguraFragment"
+        android:name="com.example.figuras.InsertarFiguraFragment"
+        android:label="fragment_insertar_figura"
+        tools:layout="@layout/fragment_insertar_figura" />
+    <fragment
+        android:id="@+id/miListaFragment"
+        android:name="com.example.figuras.MiListaFragment"
+        android:label="fragment_mi_lista"
+        tools:layout="@layout/fragment_mi_lista" >
+        <action
+            android:id="@+id/action_miListaFragment_to_miFiguraViewFragment"
+            app:destination="@id/miFiguraViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.figuras.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/figuraViewFragment"
+        android:name="com.example.figuras.FiguraViewFragment"
+        android:label="fragment_figura_view"
+        tools:layout="@layout/fragment_figura_view" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.figuras.SettingsFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <dialog
+        android:id="@+id/filtroFragment"
+        android:name="com.example.figuras.FiltroFragment"
+        android:label="fragment_filtro"
+        tools:layout="@layout/fragment_filtro" />
+
+    <fragment
+        android:id="@+id/miFiguraViewFragment"
+        android:name="com.example.figuras.MiFiguraViewFragment"
+        android:label="fragment_mi_figura_view"
+        tools:layout="@layout/fragment_mi_figura_view" >
+        <action
+            android:id="@+id/action_miFiguraViewFragment_to_deleteConfFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.figuras.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+
+</navigation>

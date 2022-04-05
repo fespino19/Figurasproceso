@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.figuras.SettingsFragment"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/title_cuenta"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recordatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_recordatorio"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:background="@drawable/separador_settings"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:id="@+id/tema"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/title_temas"
+                   android:padding="16dp"
+                   android:textStyle="bold"
+                   android:layout_weight="1"/>
+
+               <androidx.appcompat.widget.SwitchCompat
+                   android:id="@+id/switch_tema"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="0" />
+
+           </LinearLayout>
+
+            <TextView
+                android:id="@+id/Notficaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_notificaciones"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:background="@drawable/separador_settings"/>
+
+            <TextView
+                android:id="@+id/pantalla_sonido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_pantalla_sonido"
+                android:padding="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ayuda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_ayuda"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:background="@drawable/separador_settings"/>
+            <TextView
+                android:id="@+id/seguridad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_seguridad"
+                android:padding="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
