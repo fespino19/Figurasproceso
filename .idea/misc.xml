@@ -56,12 +56,14 @@
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable-anydpi/ic_favorite.xml" value="0.189" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable-anydpi/ic_favorite_border.xml" value="0.189" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable-anydpi/ic_menu_setting.xml" value="0.189" />
+        <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3545" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable-xxhdpi/background_image_icon.xml" value="0.1" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable-xxhdpi/level_number_circle.xml" value="0.1" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable/bg_sample_tag.xml" value="0.189" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable/button_rounded.xml" value="0.189" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable/button_rounded_border.xml" value="0.189" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable/comment.xml" value="0.1" />
+        <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3545" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable/ic_user.xml" value="0.189" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable/like.xml" value="0.1" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/drawable/rounded_border.xml" value="0.189" />
@@ -74,7 +76,7 @@
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/layout/drawer_header.xml" value="0.31614583333333335" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/layout/fragment_figura_view.xml" value="0.31614583333333335" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/layout/fragment_filtro.xml" value="0.31614583333333335" />
-        <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/layout/fragment_insertar_figura.xml" value="0.1" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/layout/fragment_login.xml" value="0.1779935275080906" />
         <entry key="..\:/CARPETA D/Puig castellar DAM2/M07/Figuras/app/src/main/res/layout/fragment_mi_figura_view.xml" value="0.31614583333333335" />
