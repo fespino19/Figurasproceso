@@ -78,7 +78,7 @@
                     android:id="@+id/textb2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="#Naruto"
+                    android:text="#Narutooo"
                     android:layout_marginTop="7dp"
                     android:layout_marginLeft="15dp"
                     android:textColor="@color/white"
