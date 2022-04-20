@@ -12,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
+import com.airbnb.lottie.LottieAnimationView;
 
 import com.bumptech.glide.Glide;
 
@@ -39,6 +40,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return (binding = FragmentHomeBinding.inflate(inflater, container, false)).getRoot();
     }
+
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -89,6 +91,7 @@ public class HomeFragment extends Fragment {
 
         }
 
+
     }
 
     class FiguraViewHolder2 extends RecyclerView.ViewHolder{
@@ -98,5 +101,7 @@ public class HomeFragment extends Fragment {
             super(binding.getRoot());
             this.binding = binding;
         }
+
+
     }
 

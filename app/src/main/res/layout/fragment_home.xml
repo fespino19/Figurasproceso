@@ -290,7 +290,7 @@
                             android:layout_width="75dp"
                             android:layout_height="75dp"
                             android:layout_gravity="center"
-                            app:cardBackgroundColor="#007BFF"
+                            app:cardBackgroundColor="#000000"
                             app:cardCornerRadius="37dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -350,7 +350,7 @@
                             android:layout_width="75dp"
                             android:layout_height="75dp"
                             android:layout_gravity="center"
-                            app:cardBackgroundColor="#007BFF"
+                            app:cardBackgroundColor="#000000"
                             app:cardCornerRadius="37dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -410,7 +410,7 @@
                             android:layout_width="75dp"
                             android:layout_height="75dp"
                             android:layout_gravity="center"
-                            app:cardBackgroundColor="#007BFF"
+                            app:cardBackgroundColor="#000000"
                             app:cardCornerRadius="37dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -488,7 +488,7 @@
 
 
                     <TextView
-                        android:id="@+id/texto2"
+                        android:id="@+id/texto23"
                         android:layout_width="391dp"
                         android:layout_height="27dp"
                         android:layout_marginTop="160dp"
@@ -501,7 +501,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.2"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
 
 
                     </TextView>
@@ -517,7 +517,7 @@
                         android:text="-21Frank    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. "
                         android:textColor="@color/white"
                         android:textSize="10dp"
-                        app:layout_constraintBottom_toTopOf="@+id/texto2"
+                        app:layout_constraintBottom_toTopOf="@+id/texto23"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent">
 
@@ -525,7 +525,7 @@
                     </TextView>
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/cardView2"
+                        android:id="@+id/cardView23"
                         android:layout_width="35dp"
                         android:layout_height="35dp"
                         android:layout_gravity="center"
@@ -564,14 +564,14 @@
                         android:textColor="@color/white"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.019"
-                        app:layout_constraintStart_toEndOf="@+id/cardView2"
+                        app:layout_constraintStart_toEndOf="@+id/cardView23"
                         app:layout_constraintTop_toTopOf="parent">
 
 
                     </TextView>
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:id="@+id/constraintLayout2"
+                        android:id="@+id/constraintLayout3"
                         android:layout_width="match_parent"
                         android:layout_height="373dp"
                         android:layout_marginTop="16dp"
@@ -579,7 +579,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+                        app:layout_constraintTop_toBottomOf="@+id/cardView23">
                         <androidx.cardview.widget.CardView
                             android:id="@+id/foto1"
                             android:layout_width="407dp"
@@ -602,7 +602,7 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textViewpu"
                         android:layout_width="247dp"
                         android:layout_height="19dp"
                         android:layout_marginStart="4dp"
@@ -611,10 +611,10 @@
                         android:textColor="@color/ic_launcher_background"
                         android:textSize="13dp"
                         app:layout_constraintBottom_toTopOf="@+id/textView32"
-                        app:layout_constraintStart_toEndOf="@+id/textView10" />
+                        app:layout_constraintStart_toEndOf="@+id/textViewusuario" />
 
                     <TextView
-                        android:id="@+id/textView10"
+                        android:id="@+id/textViewusuario"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="4dp"
@@ -627,14 +627,14 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView22"
+                        android:id="@+id/textViewmegusta"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="125 me gustan"
                         android:textColor="@color/white"
                         android:textSize="11dp"
-                        app:layout_constraintBottom_toTopOf="@+id/textView10"
-                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+                        app:layout_constraintBottom_toTopOf="@+id/textViewusuario"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
                         app:layout_constraintVertical_bias="0.861"
                         tools:layout_editor_absoluteX="4dp" />
 
@@ -651,14 +651,6 @@
                         app:layout_constraintStart_toStartOf="parent" />
 
                     <ImageView
-                        android:id="@+id/imageView"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        tools:layout_editor_absoluteY="444dp" />
-
-                    <ImageView
                         android:id="@+id/btnShare"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
@@ -667,7 +659,7 @@
                         android:scaleY="0.5"
                         android:src="@drawable/send"
                         app:layout_constraintStart_toEndOf="@+id/btnComment"
-                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
                     <ImageView
                         android:id="@+id/btnComment"
@@ -678,20 +670,21 @@
                         android:scaleY="0.5"
                         android:src="@drawable/comment"
                         app:layout_constraintStart_toStartOf="@+id/btnLike"
-                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
-                    <ImageView
+                    <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/btnLike"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:scaleX="0.5"
                         android:scaleY="0.5"
-                        android:src="@drawable/like"
-                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+                        android:src="@drawable/twitter_like"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
                         tools:layout_editor_absoluteX="20dp" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
                 <com.yalantis.pulltomakesoup.PullToRefreshView
                     android:id="@+id/pull_to_refresh"
                     android:layout_width="match_parent"

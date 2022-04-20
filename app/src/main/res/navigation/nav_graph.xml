@@ -94,6 +94,11 @@
         android:name="com.example.figuras.PerfilFragment"
         android:label="fragment_perfil"
         tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/buscarFragment2"
+        android:name="com.example.figuras.BuscarFragment"
+        android:label="fragment_buscar"
+        tools:layout="@layout/fragment_buscar" />
 
 
 </navigation>

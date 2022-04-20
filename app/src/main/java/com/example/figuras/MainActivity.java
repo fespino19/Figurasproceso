@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 binding.bottomNavigation.setVisibility(View.VISIBLE);
             }
 
-            if (destination.getId() == R.id.figuraViewFragment  || destination.getId() == R.id.settingFragment || destination.getId() == R.id.splashFragment || destination.getId() == R.id.loginFragment || destination.getId() == R.id.insertarFiguraFragment || destination.getId()== R.id.perfilFragment){
+            if (destination.getId() == R.id.figuraViewFragment  || destination.getId() == R.id.settingFragment || destination.getId() == R.id.splashFragment || destination.getId() == R.id.loginFragment || destination.getId() == R.id.insertarFiguraFragment || destination.getId()== R.id.perfilFragment || destination.getId()== R.id.buscarFragment2){
                 binding.buttonAdd.setVisibility(View.GONE);
             }else {
                 binding.buttonAdd.setVisibility(View.VISIBLE);
