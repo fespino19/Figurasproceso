@@ -25,21 +25,23 @@
 
         <com.google.android.flexbox.FlexboxLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             app:alignContent="stretch"
             app:alignItems="stretch"
             app:flexWrap="wrap"
+            android:foregroundGravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="307dp">
+            tools:layout_editor_absoluteY="307dp"
+            tools:ignore="MissingConstraints">
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
                 android:layout_height="128dp"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="10dp"
                 android:textAlignment="center"
                 app:cardBackgroundColor="#00FFFF"
@@ -80,9 +82,8 @@
 
 
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -126,10 +127,8 @@
 
 
             </androidx.cardview.widget.CardView>
-
-
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -174,11 +173,13 @@
 
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="10dp"
                 android:textAlignment="center"
                 app:cardBackgroundColor="#00FFFF"
@@ -219,9 +220,9 @@
 
 
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -265,9 +266,9 @@
 
 
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -312,11 +313,13 @@
 
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="10dp"
                 android:textAlignment="center"
                 app:cardBackgroundColor="#00FFFF"
@@ -357,9 +360,9 @@
 
 
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -403,9 +406,9 @@
 
 
             </androidx.cardview.widget.CardView>
-
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -451,15 +454,12 @@
             </androidx.cardview.widget.CardView>
 
 
-
-
-
-
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="10dp"
                 android:textAlignment="center"
                 app:cardBackgroundColor="#00FFFF"
@@ -472,7 +472,7 @@
                     app:cardCornerRadius="2dp">
 
                     <ImageView
-                        android:id="@+id/img9"
+                        android:id="@+id/img10"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="27dp"
@@ -488,7 +488,7 @@
                         android:textSize="11dp" />
 
                     <ImageView
-                        android:id="@+id/v9"
+                        android:id="@+id/v10"
                         android:layout_width="12dp"
                         android:layout_height="12dp"
                         android:layout_marginLeft="87dp"
@@ -501,7 +501,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -517,7 +518,7 @@
                     app:cardCornerRadius="2dp">
 
                     <ImageView
-                        android:id="@+id/img9"
+                        android:id="@+id/img11"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="27dp"
@@ -533,7 +534,7 @@
                         android:textSize="11dp" />
 
                     <ImageView
-                        android:id="@+id/v9"
+                        android:id="@+id/v11"
                         android:layout_width="12dp"
                         android:layout_height="12dp"
                         android:layout_marginLeft="87dp"
@@ -546,7 +547,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -562,7 +564,7 @@
                     app:cardCornerRadius="2dp">
 
                     <ImageView
-                        android:id="@+id/img9"
+                        android:id="@+id/img12"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="27dp"
@@ -578,7 +580,55 @@
                         android:textSize="11dp" />
 
                     <ImageView
-                        android:id="@+id/v9"
+                        android:id="@+id/v12"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="87dp"
+                        android:layout_marginTop="77dp"
+                        android:src="@drawable/verificacion" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="110dp"
+
+                android:layout_height="128dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                app:cardBackgroundColor="#00FFFF"
+                app:cardCornerRadius="2dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="115dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="2dp">
+
+                    <ImageView
+                        android:id="@+id/img13"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="27dp"
+                        android:src="@drawable/onlyfans" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="75dp"
+                        android:gravity="center"
+                        android:text="aqui estamos"
+                        android:textSize="11dp" />
+
+                    <ImageView
+                        android:id="@+id/v13"
                         android:layout_width="12dp"
                         android:layout_height="12dp"
                         android:layout_marginLeft="87dp"
@@ -591,7 +641,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -607,7 +658,7 @@
                     app:cardCornerRadius="2dp">
 
                     <ImageView
-                        android:id="@+id/img9"
+                        android:id="@+id/img14"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="27dp"
@@ -623,7 +674,7 @@
                         android:textSize="11dp" />
 
                     <ImageView
-                        android:id="@+id/v9"
+                        android:id="@+id/v14"
                         android:layout_width="12dp"
                         android:layout_height="12dp"
                         android:layout_marginLeft="87dp"
@@ -636,7 +687,8 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
+                android:layout_width="110dp"
+
                 android:layout_height="128dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -652,7 +704,7 @@
                     app:cardCornerRadius="2dp">
 
                     <ImageView
-                        android:id="@+id/img9"
+                        android:id="@+id/img15"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="27dp"
@@ -668,52 +720,7 @@
                         android:textSize="11dp" />
 
                     <ImageView
-                        android:id="@+id/v9"
-                        android:layout_width="12dp"
-                        android:layout_height="12dp"
-                        android:layout_marginLeft="87dp"
-                        android:layout_marginTop="77dp"
-                        android:src="@drawable/verificacion" />
-
-
-                </androidx.cardview.widget.CardView>
-
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="120dp"
-                android:layout_height="128dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:textAlignment="center"
-                app:cardBackgroundColor="#00FFFF"
-                app:cardCornerRadius="2dp">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="115dp"
-                    android:layout_height="120dp"
-                    android:layout_gravity="center"
-                    app:cardCornerRadius="2dp">
-
-                    <ImageView
-                        android:id="@+id/img9"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:layout_marginLeft="27dp"
-                        android:src="@drawable/onlyfans" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="75dp"
-                        android:gravity="center"
-                        android:text="aqui estamos"
-                        android:textSize="11dp" />
-
-                    <ImageView
-                        android:id="@+id/v9"
+                        android:id="@+id/v15"
                         android:layout_width="12dp"
                         android:layout_height="12dp"
                         android:layout_marginLeft="87dp"
