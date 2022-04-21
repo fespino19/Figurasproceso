@@ -6,7 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/inicio1"
     android:orientation="vertical">
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -233,8 +232,6 @@
                 android:layout_height="22dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textb19"
                 app:layout_constraintHorizontal_bias="0.939"
                 app:layout_constraintStart_toStartOf="parent"
@@ -242,19 +239,33 @@
                 app:srcCompat="@drawable/calendario" />
 
 
-            <!--<androidx.viewpager2.widget.ViewPager2
+            <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/viewPager"
-                android:layout_width="413dp"
-                android:layout_height="523dp"
+                android:layout_width="410dp"
+                android:layout_height="263dp"
+                android:layout_marginTop="2dp"
                 android:background="#189DC1"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tabLayout"
-                app:layout_constraintVertical_bias="1.0" >
+                app:layout_constraintTop_toBottomOf="@+id/tabLayout">
 
-            </androidx.viewpager2.widget.ViewPager2>-->
+            </androidx.viewpager2.widget.ViewPager2>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textb19"
+                app:tabGravity="fill"
+                app:tabMaxWidth="0dp"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/white" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
